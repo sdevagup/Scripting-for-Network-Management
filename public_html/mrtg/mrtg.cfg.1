@@ -1,0 +1,1328 @@
+# Created by 
+# /home/net484/student/net484s02/mrtg/mrtg-2.17.7/bin/cfgmaker --global "WorkDir: /home/net484/student/net484s02/public_html/mrtg" --output /home/net484/student/net484s02/public_html/mrtg/mrtg.cfg.1 public@192.168.1.1
+
+
+### Global Config Options
+
+#  for UNIX
+# WorkDir: /home/http/mrtg
+
+#  or for NT
+# WorkDir: c:\mrtgdata
+
+### Global Defaults
+
+#  to get bits instead of bytes and graphs growing to the right
+# Options[_]: growright, bits
+
+EnableIPv6: no
+WorkDir: /home/net484/student/net484s02/public_html/mrtg
+
+######################################################################
+# System: Switch-01
+# Description: Cisco Internetwork Operating System Software 
+#          IOS (tm) C2950 Software (C2950-I6Q4L2-M), Version 12.1(13)EA1, RELEASE SOFTWARE (fc1)
+#          Copyright (c) 1986-2003 by cisco Systems, Inc.
+#          Compiled Tue 04-Mar-03 02:14 by yenanh
+# Contact: jyu@depaul.edu
+# Location: CDM 659
+######################################################################
+
+
+### Interface 1 >> Descr: 'FastEthernet0/1' | Name: 'Fa0/1' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-81' ###
+
+Target[192.168.1.1_1]: 1:public@192.168.1.1:
+SetEnv[192.168.1.1_1]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/1"
+MaxBytes[192.168.1.1_1]: 12500000
+Title[192.168.1.1_1]: Traffic Analysis for 1 -- Switch-01
+PageTop[192.168.1.1_1]: <h1>Traffic Analysis for 1 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/1 this-is-a-test </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/1</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 2 >> Descr: 'FastEthernet0/2' | Name: 'Fa0/2' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-82' ###
+
+Target[192.168.1.1_2]: 2:public@192.168.1.1:
+SetEnv[192.168.1.1_2]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/2"
+MaxBytes[192.168.1.1_2]: 12500000
+Title[192.168.1.1_2]: Traffic Analysis for 2 -- Switch-01
+PageTop[192.168.1.1_2]: <h1>Traffic Analysis for 2 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/2  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/2</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 3 >> Descr: 'FastEthernet0/3' | Name: 'Fa0/3' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-83' ###
+
+Target[192.168.1.1_3]: 3:public@192.168.1.1:
+SetEnv[192.168.1.1_3]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/3"
+MaxBytes[192.168.1.1_3]: 12500000
+Title[192.168.1.1_3]: Traffic Analysis for 3 -- Switch-01
+PageTop[192.168.1.1_3]: <h1>Traffic Analysis for 3 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/3  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/3</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 4 >> Descr: 'FastEthernet0/4' | Name: 'Fa0/4' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-84' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_4]: 4:public@192.168.1.1:
+# SetEnv[192.168.1.1_4]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/4"
+# MaxBytes[192.168.1.1_4]: 1250000
+# Title[192.168.1.1_4]: Traffic Analysis for 4 -- Switch-01
+# PageTop[192.168.1.1_4]: <h1>Traffic Analysis for 4 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/4  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/4</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 5 >> Descr: 'FastEthernet0/5' | Name: 'Fa0/5' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-85' ###
+
+Target[192.168.1.1_5]: 5:public@192.168.1.1:
+SetEnv[192.168.1.1_5]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/5"
+MaxBytes[192.168.1.1_5]: 12500000
+Title[192.168.1.1_5]: Traffic Analysis for 5 -- Switch-01
+PageTop[192.168.1.1_5]: <h1>Traffic Analysis for 5 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/5  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/5</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 6 >> Descr: 'FastEthernet0/6' | Name: 'Fa0/6' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-86' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_6]: 6:public@192.168.1.1:
+# SetEnv[192.168.1.1_6]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/6"
+# MaxBytes[192.168.1.1_6]: 1250000
+# Title[192.168.1.1_6]: Traffic Analysis for 6 -- Switch-01
+# PageTop[192.168.1.1_6]: <h1>Traffic Analysis for 6 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/6  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/6</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 7 >> Descr: 'FastEthernet0/7' | Name: 'Fa0/7' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-87' ###
+
+Target[192.168.1.1_7]: 7:public@192.168.1.1:
+SetEnv[192.168.1.1_7]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/7"
+MaxBytes[192.168.1.1_7]: 12500000
+Title[192.168.1.1_7]: Traffic Analysis for 7 -- Switch-01
+PageTop[192.168.1.1_7]: <h1>Traffic Analysis for 7 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/7  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/7</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 8 >> Descr: 'FastEthernet0/8' | Name: 'Fa0/8' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-88' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_8]: 8:public@192.168.1.1:
+# SetEnv[192.168.1.1_8]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/8"
+# MaxBytes[192.168.1.1_8]: 1250000
+# Title[192.168.1.1_8]: Traffic Analysis for 8 -- Switch-01
+# PageTop[192.168.1.1_8]: <h1>Traffic Analysis for 8 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/8  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/8</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 9 >> Descr: 'FastEthernet0/9' | Name: 'Fa0/9' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-89' ###
+
+Target[192.168.1.1_9]: 9:public@192.168.1.1:
+SetEnv[192.168.1.1_9]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/9"
+MaxBytes[192.168.1.1_9]: 12500000
+Title[192.168.1.1_9]: Traffic Analysis for 9 -- Switch-01
+PageTop[192.168.1.1_9]: <h1>Traffic Analysis for 9 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/9  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/9</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 10 >> Descr: 'FastEthernet0/10' | Name: 'Fa0/10' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-8a' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_10]: 10:public@192.168.1.1:
+# SetEnv[192.168.1.1_10]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/10"
+# MaxBytes[192.168.1.1_10]: 1250000
+# Title[192.168.1.1_10]: Traffic Analysis for 10 -- Switch-01
+# PageTop[192.168.1.1_10]: <h1>Traffic Analysis for 10 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/10  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/10</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 11 >> Descr: 'FastEthernet0/11' | Name: 'Fa0/11' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-8b' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_11]: 11:public@192.168.1.1:
+# SetEnv[192.168.1.1_11]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/11"
+# MaxBytes[192.168.1.1_11]: 1250000
+# Title[192.168.1.1_11]: Traffic Analysis for 11 -- Switch-01
+# PageTop[192.168.1.1_11]: <h1>Traffic Analysis for 11 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/11  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/11</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 12 >> Descr: 'FastEthernet0/12' | Name: 'Fa0/12' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-8c' ###
+
+Target[192.168.1.1_12]: 12:public@192.168.1.1:
+SetEnv[192.168.1.1_12]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/12"
+MaxBytes[192.168.1.1_12]: 1250000
+Title[192.168.1.1_12]: Traffic Analysis for 12 -- Switch-01
+PageTop[192.168.1.1_12]: <h1>Traffic Analysis for 12 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/12  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/12</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>1250.0 kBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 13 >> Descr: 'FastEthernet0/13' | Name: 'Fa0/13' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-8d' ###
+
+Target[192.168.1.1_13]: 13:public@192.168.1.1:
+SetEnv[192.168.1.1_13]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/13"
+MaxBytes[192.168.1.1_13]: 12500000
+Title[192.168.1.1_13]: Traffic Analysis for 13 -- Switch-01
+PageTop[192.168.1.1_13]: <h1>Traffic Analysis for 13 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/13  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/13</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 14 >> Descr: 'FastEthernet0/14' | Name: 'Fa0/14' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-8e' ###
+
+Target[192.168.1.1_14]: 14:public@192.168.1.1:
+SetEnv[192.168.1.1_14]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/14"
+MaxBytes[192.168.1.1_14]: 12500000
+Title[192.168.1.1_14]: Traffic Analysis for 14 -- Switch-01
+PageTop[192.168.1.1_14]: <h1>Traffic Analysis for 14 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/14  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/14</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 15 >> Descr: 'FastEthernet0/15' | Name: 'Fa0/15' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+
+Target[192.168.1.1_15]: 15:public@192.168.1.1:
+SetEnv[192.168.1.1_15]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/15"
+MaxBytes[192.168.1.1_15]: 12500000
+Title[192.168.1.1_15]: Traffic Analysis for 15 -- Switch-01
+PageTop[192.168.1.1_15]: <h1>Traffic Analysis for 15 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/15  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/15</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 16 >> Descr: 'FastEthernet0/16' | Name: 'Fa0/16' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-90' ###
+
+Target[192.168.1.1_16]: 16:public@192.168.1.1:
+SetEnv[192.168.1.1_16]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/16"
+MaxBytes[192.168.1.1_16]: 12500000
+Title[192.168.1.1_16]: Traffic Analysis for 16 -- Switch-01
+PageTop[192.168.1.1_16]: <h1>Traffic Analysis for 16 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/16  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/16</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 17 >> Descr: 'FastEthernet0/17' | Name: 'Fa0/17' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-91' ###
+
+Target[192.168.1.1_17]: 17:public@192.168.1.1:
+SetEnv[192.168.1.1_17]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/17"
+MaxBytes[192.168.1.1_17]: 12500000
+Title[192.168.1.1_17]: Traffic Analysis for 17 -- Switch-01
+PageTop[192.168.1.1_17]: <h1>Traffic Analysis for 17 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/17  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/17</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 18 >> Descr: 'FastEthernet0/18' | Name: 'Fa0/18' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-92' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_18]: 18:public@192.168.1.1:
+# SetEnv[192.168.1.1_18]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/18"
+# MaxBytes[192.168.1.1_18]: 1250000
+# Title[192.168.1.1_18]: Traffic Analysis for 18 -- Switch-01
+# PageTop[192.168.1.1_18]: <h1>Traffic Analysis for 18 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/18  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/18</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 19 >> Descr: 'FastEthernet0/19' | Name: 'Fa0/19' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-93' ###
+
+Target[192.168.1.1_19]: 19:public@192.168.1.1:
+SetEnv[192.168.1.1_19]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/19"
+MaxBytes[192.168.1.1_19]: 12500000
+Title[192.168.1.1_19]: Traffic Analysis for 19 -- Switch-01
+PageTop[192.168.1.1_19]: <h1>Traffic Analysis for 19 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/19  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/19</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 20 >> Descr: 'FastEthernet0/20' | Name: 'Fa0/20' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-94' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_20]: 20:public@192.168.1.1:
+# SetEnv[192.168.1.1_20]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/20"
+# MaxBytes[192.168.1.1_20]: 1250000
+# Title[192.168.1.1_20]: Traffic Analysis for 20 -- Switch-01
+# PageTop[192.168.1.1_20]: <h1>Traffic Analysis for 20 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/20  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/20</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 21 >> Descr: 'FastEthernet0/21' | Name: 'Fa0/21' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-95' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_21]: 21:public@192.168.1.1:
+# SetEnv[192.168.1.1_21]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/21"
+# MaxBytes[192.168.1.1_21]: 1250000
+# Title[192.168.1.1_21]: Traffic Analysis for 21 -- Switch-01
+# PageTop[192.168.1.1_21]: <h1>Traffic Analysis for 21 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/21  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/21</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 22 >> Descr: 'FastEthernet0/22' | Name: 'Fa0/22' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-96' ###
+
+Target[192.168.1.1_22]: 22:public@192.168.1.1:
+SetEnv[192.168.1.1_22]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/22"
+MaxBytes[192.168.1.1_22]: 12500000
+Title[192.168.1.1_22]: Traffic Analysis for 22 -- Switch-01
+PageTop[192.168.1.1_22]: <h1>Traffic Analysis for 22 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/22  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/22</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 23 >> Descr: 'FastEthernet0/23' | Name: 'Fa0/23' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-97' ###
+
+Target[192.168.1.1_23]: 23:public@192.168.1.1:
+SetEnv[192.168.1.1_23]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/23"
+MaxBytes[192.168.1.1_23]: 12500000
+Title[192.168.1.1_23]: Traffic Analysis for 23 -- Switch-01
+PageTop[192.168.1.1_23]: <h1>Traffic Analysis for 23 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>FastEthernet0/23  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Fa0/23</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>12.5 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 24 >> Descr: 'FastEthernet0/24' | Name: 'Fa0/24' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-98' ###
+### The following interface is commented out because:
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_24]: 24:public@192.168.1.1:
+# SetEnv[192.168.1.1_24]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="FastEthernet0/24"
+# MaxBytes[192.168.1.1_24]: 1250000
+# Title[192.168.1.1_24]: Traffic Analysis for 24 -- Switch-01
+# PageTop[192.168.1.1_24]: <h1>Traffic Analysis for 24 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>FastEthernet0/24  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>ethernetCsmacd (6)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Fa0/24</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>1250.0 kBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 25 >> Descr: 'GigabitEthernet0/1' | Name: 'Gi0/1' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-99' ###
+
+Target[192.168.1.1_25]: 25:public@192.168.1.1:
+SetEnv[192.168.1.1_25]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="GigabitEthernet0/1"
+MaxBytes[192.168.1.1_25]: 125000000
+Title[192.168.1.1_25]: Traffic Analysis for 25 -- Switch-01
+PageTop[192.168.1.1_25]: <h1>Traffic Analysis for 25 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>GigabitEthernet0/1  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Gi0/1</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>125.0 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 26 >> Descr: 'GigabitEthernet0/2' | Name: 'Gi0/2' | Ip: 'No Ip' | Eth: '00-0d-bd-4f-13-9a' ###
+
+Target[192.168.1.1_26]: 26:public@192.168.1.1:
+SetEnv[192.168.1.1_26]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="GigabitEthernet0/2"
+MaxBytes[192.168.1.1_26]: 125000000
+Title[192.168.1.1_26]: Traffic Analysis for 26 -- Switch-01
+PageTop[192.168.1.1_26]: <h1>Traffic Analysis for 26 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>GigabitEthernet0/2  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>ethernetCsmacd (6)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Gi0/2</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>125.0 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 27 >> Descr: 'Null0' | Name: 'Nu0' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * it is a cisco Null0 interface
+# 
+# Target[192.168.1.1_27]: 27:public@192.168.1.1:
+# SetEnv[192.168.1.1_27]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="Null0"
+# MaxBytes[192.168.1.1_27]: 536870911
+# Title[192.168.1.1_27]: Traffic Analysis for 27 -- Switch-01
+# PageTop[192.168.1.1_27]: <h1>Traffic Analysis for 27 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>Null0  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Other (1)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Nu0</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>536.9 MBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 28 >> Descr: 'Vlan1' | Name: 'Vl1' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * it is administratively DOWN
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_28]: 28:public@192.168.1.1:
+# SetEnv[192.168.1.1_28]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="Vlan1"
+# MaxBytes[192.168.1.1_28]: 125000000
+# Title[192.168.1.1_28]: Traffic Analysis for 28 -- Switch-01
+# PageTop[192.168.1.1_28]: <h1>Traffic Analysis for 28 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>Vlan1  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>propVirtual (53)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Vl1</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>125.0 MBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 29 >> Descr: 'Port-channel2' | Name: 'Po2' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+
+Target[192.168.1.1_29]: 29:public@192.168.1.1:
+SetEnv[192.168.1.1_29]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="Port-channel2"
+MaxBytes[192.168.1.1_29]: 25000000
+Title[192.168.1.1_29]: Traffic Analysis for 29 -- Switch-01
+PageTop[192.168.1.1_29]: <h1>Traffic Analysis for 29 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>Port-channel2  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>propVirtual (53)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Po2</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>25.0 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>No Ip (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 30 >> Descr: 'Vlan2' | Name: 'Vl2' | Ip: '192.168.1.1' | Eth: 'No Ethernet Id' ###
+
+Target[192.168.1.1_30]: 30:public@192.168.1.1:
+SetEnv[192.168.1.1_30]: MRTG_INT_IP="192.168.1.1" MRTG_INT_DESCR="Vlan2"
+MaxBytes[192.168.1.1_30]: 125000000
+Title[192.168.1.1_30]: Traffic Analysis for 30 -- Switch-01
+PageTop[192.168.1.1_30]: <h1>Traffic Analysis for 30 -- Switch-01</h1>
+		<div id="sysdetails">
+			<table>
+				<tr>
+					<td>System:</td>
+					<td>Switch-01 in CDM 659</td>
+				</tr>
+				<tr>
+					<td>Maintainer:</td>
+					<td>jyu@depaul.edu</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td>Vlan2  </td>
+				</tr>
+				<tr>
+					<td>ifType:</td>
+					<td>propVirtual (53)</td>
+				</tr>
+				<tr>
+					<td>ifName:</td>
+					<td>Vl2</td>
+				</tr>
+				<tr>
+					<td>Max Speed:</td>
+					<td>125.0 MBytes/s</td>
+				</tr>
+				<tr>
+					<td>Ip:</td>
+					<td>192.168.1.1 (No DNS name)</td>
+				</tr>
+			</table>
+		</div>
+
+
+### Interface 31 >> Descr: 'Vlan4' | Name: 'Vl4' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * it is administratively DOWN
+### * it is operationally DOWN
+# 
+# Target[192.168.1.1_31]: 31:public@192.168.1.1:
+# SetEnv[192.168.1.1_31]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="Vlan4"
+# MaxBytes[192.168.1.1_31]: 125000000
+# Title[192.168.1.1_31]: Traffic Analysis for 31 -- Switch-01
+# PageTop[192.168.1.1_31]: <h1>Traffic Analysis for 31 -- Switch-01</h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td>Switch-01 in CDM 659</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td>jyu@depaul.edu</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>Vlan4  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>propVirtual (53)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>Vl4</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>125.0 MBytes/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+

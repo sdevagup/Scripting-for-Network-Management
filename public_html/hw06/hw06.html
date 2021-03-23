@@ -1,0 +1,44 @@
+<HTML>
+<BODY>
+<H1 align=center>NET 384/484 HW06 Telnet Exercise by Sai Devaguptapu(1936201)</H1>
+
+<HR>
+<h2 align=center>Configuring IP address on the serial interface (s0/0) of Router-04 (192.168.20.104)
+<FORM method="post" action="hw06ip.cgi">
+<table align="center" border=2>
+<TR>
+	<TD> <SELECT name=host>
+		<OPTION VALUE=192.168.20.104>192.168.20.104 
+	     </SELECT>
+	</TD>
+	<TD> <SELECT name=interface>
+		<OPTION VALUE=Serial0/0>Serial0/0
+	</TD>
+	<TD><input type=text name=newip   value="[enter the new IP address (IPv4)]"></TD>
+	<TD><input type=text name=netmask value="[enter the network mask (in IPv4 format)]"></TD>
+</TR>
+</table>
+<center><input type=submit value=submit></center>
+</FORM>
+
+<HR>
+<h2 align=center>Apply Cisco Discovery Protocol (CDP) to show neighbors </h2>
+<FORM method="post" action="hw06cdp.cgi">
+<table align="center" border=2>
+<TR>
+        <TD> <SELECT name=host>
+                <OPTION VALUE=192.168.1.1>192.168.1.1 (switch-01)
+                <OPTION VALUE=192.168.1.2>192.168.1.2 (switch-02)
+                <OPTION VALUE=192.168.1.3>192.168.1.3 (switch-03)
+             </SELECT>
+        </TD>
+</TR>
+</table>
+<center><input type=submit value=submit></center>
+</FORM>
+
+<HR>
+
+
+</BODY>
+</HTML>

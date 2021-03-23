@@ -1,0 +1,93 @@
+
+<HTML>
+<BODY>
+<H1 align=center>NET384/484 HW05(by Sai Devaguptapu)</H1>
+
+<H2 align=center>User Registration</H2>
+
+<FORM method="post" action="UserRegister.cgi">
+<table align="center" border=2>
+<TR>
+	<TD>User ID (no blanks or special character): </TD>
+	<TD><input type=text name=user></TD>
+</TR>
+<TR>
+	<TD>password: </TD>
+	<TD><input type=password name=password></TD>
+</TR>
+<TR>
+	<TD>Select a user type:</TD>
+	<TD> <SELECT name=utype>
+		<OPTION VALUE=none>none
+		<OPTION VALUE=admin>admin
+		<OPTION VALUE=faculty>faculty
+		<OPTION VALUE=staff>staff
+		<OPTION VALUE=student>student
+		<OPTION VALUE=guest>guest
+	     </SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD>Select a course:</TD>
+	<TD>
+	   <input type="radio" name="course" value="net384-801"> NET384-801
+	   <input type="radio" name="course" value="net384-810"> NET384-810
+	   <input type="radio" name="course" value="net484-801"> NET484-801
+	   <input type="radio" name="course" value="net484-810"> NET484-810
+	   <input type="radio" name="course" value="net511-701"> NET511-701
+	   <input type="radio" name="course" value="net594-701"> NET594-701
+	</TD>
+</TR>
+</Table>
+<center><input type=submit value="submit (register a new user)"></center>
+</FORM>
+
+<HR>
+
+<H2 align=center>System Load Report (for Registered Users Only)</H2>
+
+<FORM method="post" action="hw05script.cgi">
+<table align="center" border=2>
+<TR>
+	<TD>User ID: </TD>
+	<TD><input type=text name=user></TD>
+</TR>
+<TR>
+	<TD>Password: </TD>
+	<TD><input type=password name=password></TD>
+</TR>
+<TR>
+	<TD>Starting Date: </TD>
+	<TD><input type=date name=sdate></TD>
+</TR>
+<TR>
+<TR>
+	<TD>Ending Date: </TD>
+	<TD><input type=date name=edate></TD>
+</TR>
+<TR>
+	<TD>Select a report type:</TD>
+	<TD> <SELECT name=rtype>
+		<OPTION VALUE=1>daily
+		<OPTION VALUE=2>hourly
+		<OPTION VALUE=3>raw
+		<OPTION VALUE=4>weekly (future use)
+	     </SELECT>
+	</TD>
+</TR>
+</Table>
+<center><input type=submit value="submit (request a system load report)"></center>
+</FORM>
+
+<HR>
+
+<H2>Previous Homework Scripts</H2>
+<OL>
+<LI> <a href="hw02script.cgi">hw02 </a> (note: this does take a while. Try to open in a new tab so that you can continue to test other parts). 
+<LI> Intrusion Report: 
+     <a href="hw03Security.cgi?option=current">Current Week (hw03)</a> or <br> 
+     <a href="hw03Security.cgi?option=all">All Available Weeks (modified from hw03)</a> 
+<LI> <a href="hw04Account.cgi">Account Usage Report (hw04)</a> 
+</OL>
+</BODY>
+</HTML>

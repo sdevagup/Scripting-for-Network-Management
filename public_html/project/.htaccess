@@ -1,0 +1,4 @@
+AuthType       Basic
+AuthName      "Restricted Files"
+AuthUserFile  /home/net484/admin/pw_net484
+Require user   achung net484s02

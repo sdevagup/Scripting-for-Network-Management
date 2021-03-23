@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='http://140.192.40.5/~net484s02/project/style.css'>
+</HEAD>
+<BODY>
+
+<H2 align=center>NET384/484 Performance Management</H1>
+
+<H3> Network Throughput Report</H3>
+<UL>
+<LI><a href=http://140.192.40.5/~net484s02/mrtg/index_192.168.1.1.html>Switch-01 (192.168.1.1)</a>
+<LI><a href=http://140.192.40.5/~net484s02/mrtg/index_192.168.1.2.html>Switch-02(192.168.1.2)</a>
+<LI><a href=http://140.192.40.5/~net484s02/mrtg/index_192.168.1.3.html>Switch-03 (192.168.1.3)</a>
+</UL>
+
+
+<H3>Linux05 System Load Report (no registration requirement)</H3>
+
+<FORM method="post" action="http://140.192.40.5/~net484s02/hw05/hw05script.cgi">
+<input type=hidden name=user     value="anonymous">
+<input type=hidden name=password value="anoyymous">
+<table border=2  class="table table-striped">
+<TR>
+        <TD>Starting Date (mm-dd): </TD>
+        <TD><input type=date name=sdate></TD>
+</TR>
+<TR>
+<TR>
+        <TD>Ending Date (mm-dd): </TD>
+        <TD><input type=date name=edate></TD>
+</TR>
+<TR>
+        <TD>Select a report type:</TD>
+        <TD> <SELECT name=rtype>
+                <OPTION VALUE=1>daily
+                <OPTION VALUE=2>hourly
+                <OPTION VALUE=3>raw
+                <OPTION VALUE=9>weekly (future use)
+             </SELECT>
+        </TD>
+</TR>
+</Table>
+<input type=hidden name=email value="jyu@cdm.depaul.edu/A"></TD>
+<input type=submit value=submit>
+</FORM>
+
+<H3> <a href="http://140.192.40.5/~net484s02/hw05/hw02script.cgi">Network Research Lab RTT Report</a></H3>
+</BODY>
+</HTML>
